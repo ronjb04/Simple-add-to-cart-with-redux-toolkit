@@ -5,14 +5,19 @@
 
   .card {
     background: #fff;
-    height: 50rem;
-    padding-top: 2.5rem;
+    /* height: 50rem; */
+    padding: 2.5rem 0;
   }
 
   .card-img-top {
     height: 27rem;
     width: 27rem;
     object-fit: contain;
+    max-width: 100%;
+    padding: 0 2rem;
+    @media (max-width: 480px) {
+      height:auto;
+    }
   }
 
   .card-title {

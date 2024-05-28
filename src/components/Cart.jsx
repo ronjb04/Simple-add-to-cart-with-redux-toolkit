@@ -15,7 +15,7 @@ const Cart = () => {
         <h3 className="header">Items in cart</h3>
         <div className="row">
           {cartProuductData.map((product) => (
-            <div key={product.id} className="col-md-4 mb-10">
+            <div key={product.id} className="col-xs-6 col-lg-4 text-center">
               <img className="item-image" src={product.imageUrl} alt="product" />
 
               <div className="item-info">

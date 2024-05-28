@@ -1,8 +1,7 @@
 .cart {
   .cart-product {
     background: #fff;
-    margin-top: 5rem;
-    padding: 5rem 10rem;
+    padding: 2rem 2rem;
 
     .item-info .remove-button {
       margin-top: 2.5rem;
@@ -11,7 +10,7 @@
     .row {
       padding: 2rem 0;
       border-bottom: 2px solid #f0f0f0;
-      .col-4{
+      >div {
         margin-bottom: 6rem;
       }
     }
